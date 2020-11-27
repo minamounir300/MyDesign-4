@@ -1,0 +1,179 @@
+<!-------------------------------------- Classes -------------------------------------->
+
+- Screens Types
+    - Grid system = 12
+    - lg = Large Screen
+    - md = Medium Screen
+    - sm = Small Screen
+    - xs = Extra Small Screen
+
+
+- Syntax (col-lg-3)
+    - col = column
+    - lg = large screen
+    - col-lg-4 = 3 Columns
+
+
+- Class (clearfix visible-md-block)  in Grid System
+
+
+- Offset
+    - We can use Class (offset-lg/md/sm/xs-3) => for marign in the left in Grid System
+
+
+- Ordering Or Push & Pull
+    - Class (order-xs/sm/md/lg-4) or Class (order-xs/sm/md/lg-first) or Class (order-xs/sm/md/lg-last)
+
+
+- Class fixed-top | fixed-bottom
+
+
+- dropdown-divider
+
+
+- Class (d-block) => Make the thing Block
+
+- Class (d-block mx-auto) => for make the thing centerize and block
+
+
+- Texts
+    - Class (text-center)(text-right)(text-left)
+    - Class (justify-content-center)
+    - Class (text-primary) (text-danger) (text-info) (text-success) => Text Color like Buttons
+
+- Spaces:
+    - Way 1     :       Two spaces - Type &ensp;
+    - Way 2     :       Four spaces - Type &emsp;
+    - Way 3     :       Indent - Type &nbsp;&nbsp;&nbsp;&nbsp;
+
+- Paragraph
+    - Class (lead) for Paragraph
+
+
+- Navbar
+    - Class (navbar-dark bg-dark) (navbar-light bg-light)
+    - Class (mr-auto) => navbar-left 
+    - Class (ml-auto) => navbar-right 
+    - Class (fixed-top) => make Navbar Fixed in the Top
+
+
+- Images
+    - Class (img-fluid) (d-block) (mx-auto) for Image in Grid System
+    - Class (img-fluid) => Img responsive 
+    - Class (img-thumbnail) => for mak it small images with border
+    - Class (rounded-circle) => Border-raduis : 50%
+
+
+- Ul & Li
+    - Class (list-unstyled) => Reset the Ul Style and clear the bullets of li
+
+
+- Buttons
+    - Class (btn btn-primary) (btn btn-danger) (btn btn-info) (btn bt-success) => Buttons
+    - Class (btn-block) => Make Buttons full Size
+
+
+
+- Form
+    - Class (form-inline) => Form
+    - Class (form-control) => Style the input field
+    - Class (form-control-lg) => Large Input
+
+
+- Progress Bar
+    - Class (progress)
+    - Class (progress-bar)
+        - Class (bg-success) => Color of the Percentage of progress
+        - Class ( w-25 / w-50 - w-75 / w-100) => For Quick Style the color of the Percentage of progress
+        - Class (progress-bar-striped) => For Shape of progress
+        - Class (progress-bar-animated) => To make shape of progress animated
+
+
+- Hidden & Visible Classes aren't excist in Bootstrap CSS ?!!!
+    - Class (.d-lg-none .d-xl-block) => hidden-Screen name 
+    - Class (block/inline/inline-blcok) => visible-lg-block => visible-Screen name
+
+
+- Media Query
+    - Create file media.css like Style file
+
+    ----------------------------------------------------------------------------
+    - Extra Small           =>      Smart Phones
+            - @media (max-width: 575.98px) { ... }
+    ----------------------------------------------------------------------------
+    - Small devices         =>      Landscape Phones, 576px and up
+            - @media (min-width: 576px) { ... }
+            - @media (max-width: 767.98px) { ... }
+            - @media (min-width : 577px) and (max-width : 767px) { ... }
+    ----------------------------------------------------------------------------
+    - Medium devices        =>      Tablets, 768px and up
+            - @media (min-width: 768px) { ... }
+            - @media (max-width: 991.98px) { ... }
+            - @media (min-width : 768px) and (max-width : 991px) { ... }
+    ----------------------------------------------------------------------------
+    - Large devices         =>      Desktops, 992px and up
+            - @media (min-width: 992px) { ... }
+            - @media (max-width: 1199.98px) { ... }
+            - @media (min-width : 992px) and (max-width : 1199px) { ... }
+    ----------------------------------------------------------------------------
+    - Extra large devices   =>      Large Desktops, 1200px and up
+            - @media (min-width : 1200px) { ... }
+    ----------------------------------------------------------------------------
+
+
+- height
+    - CSS (height :100vh)   => 100% fit screen height
+
+<!-------------------------------------- Files -------------------------------------->
+    <!----------------------------- CSS & Google Fonts ----------------------------->
+
+                                <!-- Bootstrap Style -->                                
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+                                <!-- Private Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+                                <!-- Pages Style -->
+    <link rel="stylesheet" type="text/css" href="css/pages.css">
+
+                                <!-- Media Query -->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+                                <!-- Defualt Theme -->
+    <link rel="stylesheet" type="text/css" href="css/default_theme.css">
+
+                                <!-- Hover Css -->
+    <link rel="stylesheet" href="css/hover.css">
+
+                                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+                                <!-- Wow File -->
+    <link rel="stylesheet" href="css/animate.css">
+
+                            <!-- Google Font Mulish -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap">
+
+                            <!-- Google Font Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+
+
+
+    <!-------------------------------- Javascript -------------------------------->
+                                <!-- JQuery File -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+                                <!-- Bootstrap File -->
+    <script src="js/bootstrap.min.js"></script>
+
+                                <!-- Javascript File -->
+    <script src="js/script.js"></script>
+
+                                <!-- Wow Js File -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+                                <!-- Nice Scroll Js File -->
+    <script src="js/jquery.nicescroll.min.js"></script>
